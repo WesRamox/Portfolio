@@ -1,0 +1,12 @@
+.switch-theme {
+   animation: visible 0.2s ease-out;
+}
+
+@keyframes visible {
+   0% {
+      opacity: 0;
+   }
+   100% {
+      opacity: 1;
+   }
+}
