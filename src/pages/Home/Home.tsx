@@ -4,7 +4,9 @@ const Home = () => {
 
    return (
       <section id="home" className="w-full h-screen px-56 flex justify-center items-center">
-         <Presentation />
+         <div className="flex items-center justify-center spacing">
+            <Presentation />
+         </div>
       </section>
    )
 }

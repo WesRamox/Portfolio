@@ -1,5 +1,10 @@
 .switch-theme {
    animation: visible 0.2s ease-out;
+transition: all 0.2s ease;
+}
+
+.switch-theme:hover {
+   transition: all 0.2s ease;
 }
 
 @keyframes visible {

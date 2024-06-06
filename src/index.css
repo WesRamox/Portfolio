@@ -72,3 +72,8 @@ button:hover {
     background-color: #f9f9f9;
   }
 }
+
+.spacing {
+  max-width: 1000px;
+  width: 100%;
+}
