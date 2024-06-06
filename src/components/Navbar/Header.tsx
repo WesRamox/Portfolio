@@ -1,6 +1,6 @@
+import DownloadCV from "../DownloadCV/DownloadCV"
 import Links from "../Links/Links"
 import ThemeSwitcher from "../ThemeSwitcher/ThemeSwitcher"
-import "./Header.css"
 
 const Header = () => {
 
@@ -12,10 +12,10 @@ const Header = () => {
                <li className="nav-item"><a className="dark:hover:text-neutral-500 hover:text-neutral-950" href="#home">Início</a></li>
                <li className="nav-item"><a className="dark:hover:text-neutral-500 hover:text-neutral-950" href="#about">Sobre</a></li>
                <li className="nav-item"><a className="dark:hover:text-neutral-500 hover:text-neutral-950" href="">Habilidades</a></li>
-               <li className="nav-item"><a className="dark:hover:text-neutral-500 hover:text-neutral-950" href="">Projetos</a></li>
+               <li className="nav-item"><a className="dark:hover:text-neutral-500 hover:text-neutral-950" href="#projects">Projetos</a></li>
             </ul>
             <div className="flex gap-4 justify-center items-center">
-               <button className="nav-item download-cv">Download CV</button>
+               <DownloadCV />
                <ThemeSwitcher />
             </div>
             </div>
