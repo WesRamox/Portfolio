@@ -3,7 +3,7 @@ import Presentation from "../../components/Presentation/Presentation"
 const Home = () => {
 
    return (
-      <section id="home" className="w-full h-screen px-56 flex justify-center items-center">
+      <section id="home" className="w-full h-screen px-56 flex justify-center items-center bg-blue-50 dark:bg-zinc-900">
          <div className="flex items-center justify-center spacing">
             <Presentation />
          </div>

@@ -8,8 +8,6 @@ const ThemeSwitcher = () => {
 
    const selectedTheme = localStorage.getItem('theme_')
    const [theme, setTheme] = useState(selectedTheme);
-
-   console.log(selectedTheme)
    
    useEffect(() => {
       if(theme === "dark") {
