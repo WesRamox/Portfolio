@@ -27,9 +27,9 @@ const Works = () => {
             <div className="stack-links flex justify-between w-full pt-2">
                <div className="stacks flex gap-2">
                   <IconContext.Provider value={{ className: 'stacks' }}>
-                     <SiTypescript color="" />
-                     <RiTailwindCssFill color="" />
-                     <FaReact color="" />
+                     <FaReact title="React" color="#53C1DE" />
+                     <SiTypescript title="Typescript" color="#3178c6" />
+                     <RiTailwindCssFill title="Tailwind" color="#44a8c3" />
                   </IconContext.Provider>
                </div>
                <div className="links  flex gap-2">
