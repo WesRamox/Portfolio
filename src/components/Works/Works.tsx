@@ -19,11 +19,11 @@ const Works = () => {
 
    return(
       <>
-      <div className="project-01  rounded max-w-[25rem] bg-zinc-200 dark:bg-black w-full">
+      <div className="project-01  rounded max-w-[25rem] bg-zinc-300 dark:bg-black w-full">
          <img src={market} className="img-project-01" />
          <div className="details p-3 dark:bg-neutral-800 flex flex-col items-start">
             <p className="text-xl dark:text-white ">{projects[0].name}</p>
-            <p className="text-sm text-start py-2 dark:text-zinc-300 text-zinc-500">{projects[0].description}</p>
+            <p className="text-sm text-start py-2 dark:text-zinc-300 text-zinc-800">{projects[0].description}</p>
             <div className="stack-links flex justify-between w-full pt-2">
                <div className="stacks flex gap-2">
                   <IconContext.Provider value={{ className: 'stacks' }}>

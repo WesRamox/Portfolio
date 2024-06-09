@@ -11,7 +11,7 @@ const Header = () => {
             <ul className="nav-list flex gap-10 text-lg font-normal dark:text-neutral-300 text-neutral-600 ">
                <li className="nav-item"><a className="dark:hover:text-neutral-500 hover:text-neutral-950" href="#home">Início</a></li>
                <li className="nav-item"><a className="dark:hover:text-neutral-500 hover:text-neutral-950" href="#about">Sobre</a></li>
-               <li className="nav-item"><a className="dark:hover:text-neutral-500 hover:text-neutral-950" href="">Habilidades</a></li>
+               <li className="nav-item"><a className="dark:hover:text-neutral-500 hover:text-neutral-950" href="#skills">Habilidades</a></li>
                <li className="nav-item"><a className="dark:hover:text-neutral-500 hover:text-neutral-950" href="#projects">Projetos</a></li>
             </ul>
             <div className="flex gap-4 justify-center items-center">
