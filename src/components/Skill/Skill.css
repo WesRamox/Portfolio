@@ -1,3 +1,9 @@
 .global-stacks {
    font-size: 55px;
+   cursor: pointer;
+   transition: all 0.5s;
+}
+
+.global-stacks:hover {
+   color: rgb(78, 78, 78);
 }

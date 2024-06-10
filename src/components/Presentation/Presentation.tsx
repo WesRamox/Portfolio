@@ -7,7 +7,7 @@ import DownloadCV from '../DownloadCV/DownloadCV'
 const Presentation = () => {
 
    return(
-         <div className='flex justify-between w-full'>
+         <div className='flex justify-between w-full cursor-default'>
             <div className="left-box flex items-start flex-col justify-center">
                <p className="text-4xl">Olá, eu sou</p>
                <h2 className="text-4xl font-semibold">Wesley Ramos</h2>

@@ -10,16 +10,16 @@ const Skill = () => {
    return(
       <div className="skills flex items-center justify-center">
          <div className="flex max-w-[1300px] items-center justify-center flex-wrap gap-16 mt-10 2xl:gap-24 skills">
-            <IconContext.Provider value={{ className: "global-stacks dark:text-neutral-300 text-neutral-600" }}>
-               <FaHtml5 color="#F16529" />
-               <FaCss3Alt color="#1172B8" />
-               <FaBootstrap color="#552d91" />
-               <FaGitAlt color="#EE513B" />
+            <IconContext.Provider value={{ className: "global-stacks" }}>
+               <FaHtml5 className="text-[#F16529]"/>
+               <FaCss3Alt className="text-[#1172B8]" />
+               <FaBootstrap className="text-[#552d91]" />
+               <FaGitAlt className="text-[#EE513B]" />
                <FaGithub className="dark:text-white" />
-               <FaReact color="#53C1DE" />
-               <IoLogoJavascript color="#f7df1e" />
-               <RiTailwindCssFill color="#44a8c3" />
-               <SiTypescript color="#3178c6" />
+               <FaReact className="text-[#53C1DE]" />
+               <IoLogoJavascript className="text-[#f7df1e]" />
+               <RiTailwindCssFill className="text-[#44a8c3]" />
+               <SiTypescript className="text-[#3178c6]" />
             </IconContext.Provider>
          </div>
       </div>
