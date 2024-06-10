@@ -1,7 +1,8 @@
 import { IconContext } from "react-icons"
-import { FaCode, FaReact } from "react-icons/fa"
-import { MdOutlineVisibility } from "react-icons/md"
+import { FaReact } from "react-icons/fa"
+import { FaEye } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri"
+import { DiGithubFull } from "react-icons/di";
 import { SiTypescript } from "react-icons/si";
 import "./Works.css"
 import market from "../../assets/marketcontroller.png"
@@ -19,7 +20,7 @@ const Works = () => {
 
    return(
       <>
-      <div className="project-01  rounded max-w-[25rem] bg-zinc-300 dark:bg-black w-full">
+      <div className="project-01 rounded max-w-[25rem] bg-zinc-300 dark:bg-black w-full">
          <img src={market} className="img-project-01" />
          <div className="details p-3 dark:bg-neutral-800 flex flex-col items-start">
             <p className="text-xl dark:text-white ">{projects[0].name}</p>
@@ -34,8 +35,8 @@ const Works = () => {
                </div>
                <div className="links  flex gap-2">
                   <IconContext.Provider value={{ className: 'stacks' }}>
-                     <a href="" target="__blank" title="Visitar"><MdOutlineVisibility /></a>
-                     <a href="" target="__blank" title="Repositório"><FaCode /></a>
+                     <a href="" target="__blank" title="Visitar" className="hover:text-zinc-400"><FaEye /></a>
+                     <a href="" target="__blank" title="Repositório" className="hover:text-zinc-400"><DiGithubFull /></a>
                   </IconContext.Provider>
                </div>
             </div>

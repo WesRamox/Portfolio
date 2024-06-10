@@ -42,6 +42,7 @@ html {
 
   color: rgba(255, 255, 255, 0.87);
 
+  box-sizing: border-box;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

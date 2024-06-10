@@ -9,10 +9,9 @@ const Presentation = () => {
    return(
          <div className='flex justify-between w-full'>
             <div className="left-box flex items-start flex-col justify-center">
-               <p className="text-3xl">Olá, eu sou</p>
-               <h2 className="text-3xl font-semibold">Wesley Ramos</h2>
-               <h1 className="font-bold text-5xl tracking-wider w-60 flex text-start">DESENVOLVEDOR FRONT END</h1>
-               <p></p>
+               <p className="text-4xl">Olá, eu sou</p>
+               <h2 className="text-4xl font-semibold">Wesley Ramos</h2>
+               <h1 className="font-bold text-6xl tracking-wider w-60 flex text-start">DESENVOLVEDOR FRONT END</h1>
                <div className="buttons flex gap-2 items-center justify-center mt-3">
                   <DownloadCV />
                   <MyWorksBtn />
