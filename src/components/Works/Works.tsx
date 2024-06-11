@@ -45,9 +45,9 @@ const Works = () => {
             <div className="stack-links flex justify-between w-full pt-2">
                <div className="stacks flex gap-2">
                   <IconContext.Provider value={{ className: 'stacks' }}>
-                     <FaReact title="React" color="#53C1DE" />
-                     <SiTypescript title="Typescript" color="#3178c6" />
-                     <RiTailwindCssFill title="Tailwind" color="#44a8c3" />
+                     <FaHtml5 className="text-[#F16529]"/>
+                     <FaCss3Alt className="text-[#1172B8]" />
+                     <IoLogoJavascript title="Javascript" className="dark:text-[#FFFF00] text-black" />
                   </IconContext.Provider>
                </div>
                <div className="links  flex gap-2">
@@ -62,8 +62,10 @@ const Works = () => {
       <div className="project-02 rounded max-w-[25rem] flex flex-col bg-zinc-300 dark:bg-black w-full">
          <img src={projects[1].image_url} className="img-project-02 max-h-[250px]" />
          <div className="details p-3 min-h-[181px] dark:bg-neutral-800 flex flex-col items-start">
-            <p className="text-xl dark:text-white ">{projects[1].name}</p>
-            <p className="text-sm text-start py-2 dark:text-zinc-300 text-zinc-800">{projects[1].description}</p>
+            <div className="flex flex-col text-start">
+               <p className="text-xl dark:text-white ">{projects[1].name}</p>
+               <p className="text-sm text-start py-2 dark:text-zinc-300 text-zinc-800">{projects[1].description}</p>
+            </div>
             <div className="stack-links flex justify-between w-full pt-2">
                <div className="stacks flex gap-2">
                   <IconContext.Provider value={{ className: 'stacks' }}>
@@ -84,20 +86,22 @@ const Works = () => {
       </div>
       <div className="project-03 rounded max-w-[25rem] bg-zinc-300 dark:bg-black w-full">
          <img src={projects[2].image_url} className="img-project-02 max-h-[250px]" />
-         <div className="details p-3 min-h-[181px] dark:bg-neutral-800 flex flex-col items-start">
+         <div className="details p-3 min-h-[181px] dark:bg-neutral-800 flex flex-col items-start justify-between">
             <p className="text-xl dark:text-white ">{projects[2].name}</p>
             <p className="text-sm text-start py-2 dark:text-zinc-300 text-zinc-800">{projects[2].description}</p>
             <div className="stack-links flex justify-between w-full pt-2">
                <div className="stacks flex gap-2">
                   <IconContext.Provider value={{ className: 'stacks' }}>
+                     <FaCss3Alt className="text-[#1172B8]" />
+                     <RiTailwindCssFill title="Tailwind" color="#44a8c3" />
                      <FaReact title="React" color="#53C1DE" />
                      <SiTypescript title="Typescript" color="#3178c6" />
-                     <RiTailwindCssFill title="Tailwind" color="#44a8c3" />
                   </IconContext.Provider>
                </div>
                <div className="links  flex gap-2">
                   <IconContext.Provider value={{ className: 'stacks' }}>
                      <a href="" target="__blank" title="Visitar" className="hover:text-zinc-400"><FaEye /></a>
+                     
                      <a href="" target="__blank" title="Repositório" className="hover:text-zinc-400"><DiGithubFull /></a>
                   </IconContext.Provider>
                </div>
