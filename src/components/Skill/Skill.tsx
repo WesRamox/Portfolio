@@ -9,7 +9,7 @@ const Skill = () => {
 
    return(
       <div className="skills flex items-center justify-center">
-         <div className="flex max-w-[1300px] items-center justify-center flex-wrap gap-16 mt-10 2xl:gap-24 skills">
+         <div className="flex max-w-[1300px] items-center justify-center flex-wrap gap-16 mt-10 max-[700px]:gap-8 2xl:gap-24 skills">
             <IconContext.Provider value={{ className: "global-stacks" }}>
                <FaHtml5 className="text-[#F16529]"/>
                <FaCss3Alt className="text-[#1172B8]" />

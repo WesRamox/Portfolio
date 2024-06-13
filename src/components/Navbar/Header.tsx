@@ -6,7 +6,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 const Header = () => {
 
    return(
-         <nav className="navbar fixed z-50 w-full inset-x-0 2xl:px-[18rem] max-[1200px]:w-full lg:px-[5rem] min-w-[30rem] top-0 h-20 bg-zinc-200 dark:bg-zinc-900 dark:bg-opacity-60 px-12 dark:backdrop-blur-md text-white backdrop-blur-md bg-opacity-50">
+         <nav className="navbar fixed z-50 w-full inset-x-0 max-[535px]:px-0 2xl:px-[18rem] max-[1200px]:w-full lg:px-[5rem] max-[854px]:px-0 min-w-screen top-0 h-20 bg-zinc-200 dark:bg-zinc-900 dark:bg-opacity-60 px-12 dark:backdrop-blur-md text-white backdrop-blur-md bg-opacity-50">
             <div className="flex justify-between items-center h-full max-[855px]:justify-center max-[850px]:w-full">
                <div className="max-[1200px]:hidden">
                   <Links />
