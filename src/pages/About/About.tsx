@@ -14,7 +14,7 @@ const About = () => {
     }, [])
 
    return(
-      <section id="about" className="w-full h-screen max-[1220px]:px-20 max-[520px]:px-10 min-h-[700px] gap-16 dark:bg-neutral-950 dark:bg-opacity-10 px-56 flex flex-col pt-24 items-center"> 
+      <section id="about" className="w-full h-screen max-[1220px]:px-20 max-[520px]:px-10 min-h-[700px] gap-16 dark:bg-neutral-950 dark:bg-opacity-10 bg-white px-56 flex flex-col pt-24 items-center"> 
       <div className="relative z-[-1] flex cursor-default items-center justify-center text-center" data-aos="fade-up">
          <h3 className="text-5xl absolute dark:text-zinc-200 max-[845px]:text-3xl max-[550px]:text-2xl text-zinc-600">Um pouco sobre mim</h3>
          <h3 className="text-9xl opacity-5 dark:text-zinc-50 max-[845px]:text-7xl max-[550px]:text-5xl">SOBRE MIM</h3>

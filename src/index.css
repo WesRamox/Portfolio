@@ -30,7 +30,6 @@ html {
   background: #454545;
 }
 
-
 :root {
   --primary-color: #969696;
   --secondary-color: #496df9;
@@ -40,7 +39,7 @@ html {
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  
   color: rgba(255, 255, 255, 0.87);
 
   box-sizing: border-box;

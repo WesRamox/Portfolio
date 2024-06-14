@@ -48,7 +48,7 @@ const Works = () => {
 
    return(
       <>
-      <div className="project-01 rounded max-w-[25rem] flex flex-col bg-zinc-300 dark:bg-black w-full" data-aos="fade-up" data-aos-delay="400">
+      <div className="project rounded max-w-[25rem] flex flex-col bg-zinc-200 dark:bg-black w-full" data-aos="fade-up" data-aos-delay="400">
          <img src={projects[0].image_url} className="img-project-01 h-[250px]" />
          <div className="details p-3 min-h-[181px] dark:bg-neutral-800 justify-around flex flex-col items-start">
          <div className="flex flex-col text-start">
@@ -74,7 +74,7 @@ const Works = () => {
       </div>
 
       
-      <div className="project-02 rounded max-w-[25rem] flex flex-col bg-zinc-300 dark:bg-black w-full" data-aos="fade-up" data-aos-delay="600">
+      <div className="project rounded max-w-[25rem] flex flex-col bg-zinc-200 dark:bg-black w-full" data-aos="fade-up" data-aos-delay="600">
          <img src={projects[1].image_url} className="img-project-02 h-[250px]" />
          <div className="details p-3 min-h-[181px] dark:bg-neutral-800 flex flex-col justify-between items-start">
             <div className="flex flex-col text-start">
@@ -101,7 +101,7 @@ const Works = () => {
       </div>
 
 
-      <div className="project-03 rounded max-w-[25rem] bg-zinc-300 dark:bg-black w-full" data-aos="fade-up" data-aos-delay="500">
+      <div className="project rounded max-w-[25rem] bg-zinc-200 dark:bg-black w-full" data-aos="fade-up" data-aos-delay="500">
          <img src={projects[2].image_url} className="img-project-02 h-[250px]" />
          <div className="details p-3 min-h-[181px] dark:bg-neutral-800 flex flex-col items-start justify-between">
             <div className="flex flex-col text-start">
