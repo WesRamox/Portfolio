@@ -22,18 +22,18 @@ const Works = () => {
    let projects = [
       {
          id: 1,
-         name: "Temperatura Hoje",
-         description: "Este projeto permite aos usuários verificar a temperatura atual em qualquer local. O objetivo principal é proporcionar uma ferramenta simples para acessar informações meteorológicas.",
-         image_url: "https://camo.githubusercontent.com/f88ad70b484fe8bd859940827e3ceb24037017f8d04cefe4accd7ce7443212c0/68747470733a2f2f736e6970626f6172642e696f2f4b4e7646344c2e6a7067",
-         github: "",
-         deploy: ""
+         name: "Dev Academy",
+         description: "O Market Controller é uma solução robusta e prática para qualquer estabelecimento que lida com uma grande variedade de produtos perecíveis.",
+         image_url: "https://camo.githubusercontent.com/6453a7d1a3098db562b6d6b4fdf68dd3e5a31f8aedd1e38610547b94dabc13f0/68747470733a2f2f736e6970626f6172642e696f2f47626f6479372e6a7067",
+         github: "https://github.com/WesRamox/devAcademy",
+         deploy: "https://dev-academy-delta.vercel.app/"
       },
       {
          id: 2,
          name: "Market Controller",
          description: "O Market Controller é uma solução robusta e prática para qualquer estabelecimento que lida com uma grande variedade de produtos perecíveis.",
          image_url: "https://camo.githubusercontent.com/a39ff55b0d63aafdadb1147713577862831bf63cfe6eccf1fd01505fd3c0f1af/68747470733a2f2f736e6970626f6172642e696f2f313975445a362e6a7067",
-         github: "",
+         github: "https://github.com/WesRamox/MarketController",
          deploy: ""
       },
       {
@@ -41,8 +41,8 @@ const Works = () => {
          name: "Meu portfolio",
          description: "Aqui, você encontrará uma coleção dos meus projetos desenvolvidos ao longo da minha trajetória como desenvolvedor.",
          image_url: "https://snipboard.io/8nTNau.jpg",
-         github: "",
-         deploy: ".."
+         github: "https://github.com/WesRamox/Portfolio",
+         deploy: "https://wesleyramos.vercel.app/"
       }
    ]
 
@@ -65,8 +65,8 @@ const Works = () => {
                </div>
                <div className="links  flex gap-2">
                   <IconContext.Provider value={{ className: 'stacks' }}>
-                     <a href="" target="__blank" title="Visitar" className="hover:text-zinc-400"><FaEye /></a>
-                     <a href="" target="__blank" title="Repositório" className="hover:text-zinc-400"><DiGithubFull /></a>
+                     <a href={projects[0].deploy} target="__blank" title="Visitar" className="hover:text-zinc-400"><FaEye /></a>
+                     <a href={projects[0].github} target="__blank" title="Repositório" className="hover:text-zinc-400"><DiGithubFull /></a>
                   </IconContext.Provider>
                </div>
             </div>
@@ -92,8 +92,8 @@ const Works = () => {
                </div>
                <div className="links  flex gap-2">
                   <IconContext.Provider value={{ className: 'stacks' }}>
-                     <a href="" target="__blank" title="Visitar" className="hover:text-zinc-400"><FaEye /></a>
-                     <a href="" target="__blank" title="Repositório" className="hover:text-zinc-400"><DiGithubFull /></a>
+                     <a href={projects[1].deploy} target="__blank" title="Visitar" className="hover:text-zinc-400"><FaEye /></a>
+                     <a href={projects[1].github} target="__blank" title="Repositório" className="hover:text-zinc-400"><DiGithubFull /></a>
                   </IconContext.Provider>
                </div>
             </div>
@@ -118,8 +118,8 @@ const Works = () => {
                </div>
                <div className="links  flex gap-2">
                   <IconContext.Provider value={{ className: 'stacks' }}>
-                     <a href="" target="__blank" title="Visitar" className="hover:text-zinc-400"><FaEye /></a>
-                     <a href="" target="__blank" title="Repositório" className="hover:text-zinc-400"><DiGithubFull /></a>
+                     <a href={projects[2].deploy} target="__blank" title="Visitar" className="hover:text-zinc-400"><FaEye /></a>
+                     <a href={projects[2].github} target="__blank" title="Repositório" className="hover:text-zinc-400"><DiGithubFull /></a>
                   </IconContext.Provider>
                </div>
             </div>

@@ -18,7 +18,7 @@ const About = () => {
          <h3 className="text-5xl absolute dark:text-zinc-200 max-[845px]:text-3xl max-[550px]:text-2xl text-zinc-600">Um pouco sobre mim</h3>
          <h3 className="text-9xl opacity-5 dark:text-zinc-50 max-[845px]:text-7xl max-[550px]:text-5xl">SOBRE MIM</h3>
       </div>
-         <div className="relative gap-10" data-aos="slide-up" data-aos-delay="100">
+         <div className="relative gap-10" data-aos="fade-up" data-aos-delay="300">
             <div className="about_text max-w-[555px] max-[1220px]:text-sm text-xl max-[430px]:w-[250px] gap-5 flex flex-col justify-around">
                <h3 className="cursor-default text-start">
                   Meu nome é <span className="text-blue-500 font-semibold">Wesley Ramos</span>, sou um desenvolvedor<span className="text-blue-500 font-semibold"> Front End </span>
