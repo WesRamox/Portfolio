@@ -23,7 +23,7 @@ const Works = () => {
       {
          id: 1,
          name: "Dev Academy",
-         description: "O Market Controller é uma solução robusta e prática para qualquer estabelecimento que lida com uma grande variedade de produtos perecíveis.",
+         description: "Desbloqueie seu potencial e torne-se um desenvolvedor de software de alta demanda com a Dev Academy!",
          image_url: "https://camo.githubusercontent.com/6453a7d1a3098db562b6d6b4fdf68dd3e5a31f8aedd1e38610547b94dabc13f0/68747470733a2f2f736e6970626f6172642e696f2f47626f6479372e6a7067",
          github: "https://github.com/WesRamox/devAcademy",
          deploy: "https://dev-academy-delta.vercel.app/"
