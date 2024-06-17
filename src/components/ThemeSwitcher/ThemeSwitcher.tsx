@@ -27,7 +27,7 @@ const ThemeSwitcher = () => {
 
    return (
       <button onClick={handleThemeSwitch} className="bg-transparent switch-theme p-0 border-none">
-         <IconContext.Provider value={{ className: "dark:text-white switch-theme text-gray-400 hover:text-gray-500 dark:hover:text-gray-300", size: "25" }}>
+         <IconContext.Provider value={{ className: "dark:text-white switch-theme text-gray-500 hover:text-gray-200 dark:hover:text-gray-300", size: "25" }}>
             {theme === 'dark' ? <PiSunDuotone /> : <FaMoon />}
          </IconContext.Provider>
       </button>

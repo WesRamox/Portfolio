@@ -40,9 +40,9 @@ const Skill = () => {
                <SiTypescript className="text-[#3178c6]" onClick={() => { setTech(8) }}/>
             </IconContext.Provider>
          </div>
-         <div className="flex flex-col gap-2 justify-center items-center cursor-default w-[440px]" data-aos="fade-up" data-aos-delay="300">
+         <div className="flex flex-col gap-2 justify-center items-center cursor-default w-[550px]" data-aos="fade-up" data-aos-delay="300">
             <h2 className="text-2xl dark:text-neutral-200 text-neutral-800 font-bold">{techsInform[techInfo].name}</h2>
-            <p className=" max-[455px]:w-64 dark:text-gray-300">{techsInform[techInfo].description}</p>
+            <p className=" max-[620px]:w-64 dark:text-gray-300">{techsInform[techInfo].description}</p>
             <p className=" text-blue-500 font-bold"><span className='dark:text-white text-gray-500'>Tempo de Experiencia:</span> {techsInform[techInfo].experience}</p>
          </div>
       </div>

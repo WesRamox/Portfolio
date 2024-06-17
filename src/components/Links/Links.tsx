@@ -5,7 +5,7 @@ import './Links.css'
 const Links = () => {
 
    return(
-      <IconContext.Provider value={{ className: "shared-class dark:hover:text-neutral-500 hover:text-neutral-950 dark:text-neutral-300 text-neutral-600", size: '28' }}>
+      <IconContext.Provider value={{ className: "shared-class dark:hover:text-neutral-400 hover:text-neutral-950 dark:text-white text-neutral-700", size: '28' }}>
          <ul className="contact-list flex gap-7">
             <li className="item-contact"><a href=""><FaGithub /></a></li>
             <li className="item-contact"><a href=""><FaLinkedin /></a></li>

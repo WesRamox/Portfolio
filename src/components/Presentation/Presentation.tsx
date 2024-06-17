@@ -21,10 +21,10 @@ const Presentation = () => {
          <div className='flex justify-between w-full max-[768px]:flex-col-reverse max-[768px]:gap-6 items-center cursor-default'>
             <div className="left-box flex items-start flex-col max-[768px]:items-center justify-center" data-aos="fade-right">
                <p className="text-4xl max-[1400px]:text-3xl">Olá, eu sou</p>
-               <h2 className="text-4xl max-[1400px]:text-3xl font-semibold">Wesley Ramos</h2>
+               <h2 className="text-4xl max-[1400px]:text-3xl font-semibold text-neutral-100 dark:text-blue-500">Wesley Ramos</h2>
                <h1 className="font-bold text-6xl tracking-wider w-62 flex text-start max-[768px]:text-center max-[768px]:w-82 max-[405px]:text-2xl max-[1400px]:text-4xl flex-col">
                   DESENVOLVEDOR 
-                  <span className="max-[768px]:text-5xl max-[768px]:tracking-[.14em] dark:text-gray-300 max-[405px]:text-3xl text-zinc-900">FRONT END</span>
+                  <span className="max-[768px]:text-5xl max-[768px]:tracking-[.14em] dark:text-gray-300 max-[405px]:text-3xl text-zinc-100">FRONT END</span>
                </h1>
                <div className="buttons flex max-[768px]:flex-col max-[768px]:gap-5 gap-2 items-center justify-center mt-3" data-aos="slide-up" data-aos-delay="300">
                   <div className="flex gap-2 max-[405px]:flex-col">
