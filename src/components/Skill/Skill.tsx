@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useTechs } from '../../data/MockTechs';
+import { techsInform } from '../../data/MockTechs';
 import { FaHtml5, FaCss3Alt, FaReact, FaBootstrap, FaGitAlt, FaGithub  } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
@@ -11,8 +11,6 @@ import "./Skill.css"
 
 const Skill = () => {
 
-   const { techsInform } = useTechs()
-
    useEffect(() => {
       AOS.init({
          // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
@@ -22,8 +20,6 @@ const Skill = () => {
    }, [])
 
    let [techInfo, setTech] = useState(0)
-
-
 
    return(
       <div className="skills flex flex-col items-center justify-center gap-6">

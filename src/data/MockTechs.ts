@@ -1,7 +1,6 @@
 import { ITech } from "../interfaces/ITech"
 
-export function useTechs() {
-   const techsInform: ITech[] = [
+export const techsInform: ITech[] = [
       {
          id: 0,
          name: "HTML5",
@@ -57,6 +56,3 @@ export function useTechs() {
          experience: "1 mês"
       },
    ];
-
-   return { techsInform }
-}
