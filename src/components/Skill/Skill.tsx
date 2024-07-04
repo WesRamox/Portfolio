@@ -19,7 +19,7 @@ const Skill = () => {
        });
    }, [])
 
-   let [techInfo, setTech] = useState(0)
+   const [techInfo, setTech] = useState(0)
 
    return(
       <div className="skills flex flex-col items-center justify-center gap-6">

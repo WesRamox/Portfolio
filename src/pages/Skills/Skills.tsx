@@ -7,12 +7,10 @@ const Skills = () => {
 
    useEffect(() => {
       AOS.init({
-         // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-         delay: 100, // values from 0 to 3000, with step 50ms
-         duration: 300, // values from 0 to 3000, with step 50ms
+         delay: 100,
+         duration: 300,
        });
     }, [])
-
 
    return(
       <section id="skills" className="p-20 max-[1220px]:px-20 max-[520px]:px-3 bg-blue-50 dark:bg-zinc-900">
