@@ -19,21 +19,21 @@ const Skill = () => {
        });
    }, [])
 
-   let [techInfo, setTech] = useState(0)
+   const [techInfo, setTech] = useState(0)
 
    return(
       <div className="skills flex flex-col items-center justify-center gap-6">
          <div className="flex max-w-[1300px] items-center justify-center flex-wrap gap-16 mt-10 max-[700px]:gap-8 2xl:gap-24 skills" data-aos="fade-up" data-aos-delay="200">
             <IconContext.Provider value={{ className: "global-stacks" }}>
-               <FaHtml5 className="text-[#F16529]" onClick={() => { setTech(0) }} />
-               <FaCss3Alt className="text-[#1172B8]" onClick={() => { setTech(1) }} />
-               <FaBootstrap className="text-[#552d91]" onClick={() => { setTech(2) }} />
-               <FaGitAlt className="text-[#EE513B]" onClick={() => { setTech(3) }} />
-               <FaGithub onClick={() => { setTech(4) }} />
-               <FaReact className="text-[#53C1DE]" onClick={() => { setTech(5) }} />
-               <IoLogoJavascript className="text-[#f7df1e]" onClick={() => { setTech(6) }} />
-               <RiTailwindCssFill className="text-[#44a8c3]" onClick={() => { setTech(7) }}/>
-               <SiTypescript className="text-[#3178c6]" onClick={() => { setTech(8) }}/>
+               <FaHtml5 className="text-[#F16529]" onClick={() => setTech(0) } />
+               <FaCss3Alt className="text-[#1172B8]" onClick={() => setTech(1) } />
+               <FaBootstrap className="text-[#552d91]" onClick={() => setTech(2) } />
+               <FaGitAlt className="text-[#EE513B]" onClick={() => setTech(3) } />
+               <FaGithub onClick={() => setTech(4) } />
+               <FaReact className="text-[#53C1DE]" onClick={() => setTech(5) } />
+               <IoLogoJavascript className="text-[#f7df1e]" onClick={() => setTech(6) } />
+               <RiTailwindCssFill className="text-[#44a8c3]" onClick={() => setTech(7) }/>
+               <SiTypescript className="text-[#3178c6]" onClick={() => setTech(8) } />
             </IconContext.Provider>
          </div>
          <div className="flex mt-5 flex-col gap-2 justify-center items-center cursor-default max-w-[30rem]" data-aos="fade-up" data-aos-delay="300">
