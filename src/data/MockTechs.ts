@@ -35,7 +35,7 @@ export const techsInform: ITech[] = [
          id: 5,
          name: "REACT",
          description: "React é um framework JavaScript criado pelo Facebook (atual Meta) que é usado para criar interfaces de usuário (UI) em aplicativos web. Ele é popular por ser fácil de usar, altamente flexível e escalável, e é usado por muitas empresas de tecnologia, incluindo o Facebook, Instagram e Airbnb.",
-         experience: "2 meses"
+         experience: "3 meses"
       },
       {
          id: 6,
@@ -47,12 +47,12 @@ export const techsInform: ITech[] = [
          id: 7,
          name: "TAILWIND",
          description: "Tailwind é um framework CSS que permite há você criar layouts para suas aplicações web utilizando sua estrutura. Ou seja, uma ferramenta que fornece componentes para sua estilização. O propósito geral da criação desse framework é aumentar a velocidade para o desenvolvimento, agilizando os processos de criação de seus web sites.",
-         experience: "3 meses"
+         experience: "4 meses"
       },
       {
          id: 8,
          name: "TYPESCRIPT",
          description: "TypeScript é um superconjunto de JavaScript, ou seja, um conjunto de ferramentas e formas mais eficientes de escrever código JavaScript, adicionando recursos que não estão presentes de maneira nativa na linguagem.",
-         experience: "1 mês"
+         experience: "4 mês"
       },
    ];

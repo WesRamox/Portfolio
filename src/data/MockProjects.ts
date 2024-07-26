@@ -11,11 +11,11 @@ export const projects: IProjects[] = [
   },
   {
      id: 2,
-     name: "Market Controller",
-     description: "O Market Controller é uma solução robusta e prática para qualquer estabelecimento que lida com uma grande variedade de produtos perecíveis.",
-     image_url: "https://camo.githubusercontent.com/a39ff55b0d63aafdadb1147713577862831bf63cfe6eccf1fd01505fd3c0f1af/68747470733a2f2f736e6970626f6172642e696f2f313975445a362e6a7067",
-     github: "https://github.com/WesRamox/MarketController",
-     deploy: ""
+     name: "React Stock",
+     description: "React Stock é um sistema de gerenciamento de estoque. React Stock foca em funcionalidades básicas como controle de quantidade.",
+     image_url: "https://camo.githubusercontent.com/051cbb68918e9610c51046bd2fa30e1c6d1fdc99908110f610f8acbd10485303/68747470733a2f2f736e6970626f6172642e696f2f545274734a312e6a7067",
+     github: "https://github.com/WesRamox/gestor-de-estoque",
+     deploy: "https://gestor-de-estoque-dun.vercel.app/"
   },
   {
      id: 3,
