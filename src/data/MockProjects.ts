@@ -13,7 +13,7 @@ export const projects: IProjects[] = [
      id: 2,
      name: "React Stock",
      description: "React Stock é um sistema de gerenciamento de estoque. React Stock foca em funcionalidades básicas como controle de quantidade.",
-     image_url: "https://camo.githubusercontent.com/051cbb68918e9610c51046bd2fa30e1c6d1fdc99908110f610f8acbd10485303/68747470733a2f2f736e6970626f6172642e696f2f545274734a312e6a7067",
+     image_url: "https://camo.githubusercontent.com/6b177a65bc4bc759a8fec5ad8d2aa86dd9641516ad9ecc8673e4ab37ae978120/68747470733a2f2f736e6970626f6172642e696f2f545274734a312e6a7067",
      github: "https://github.com/WesRamox/gestor-de-estoque",
      deploy: "https://gestor-de-estoque-dun.vercel.app/"
   },
