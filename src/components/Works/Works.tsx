@@ -35,9 +35,8 @@ const Works = () => {
          <Project className="project rounded max-w-[25rem] flex flex-col bg-zinc-200 dark:bg-black w-full" data-aos="fade-up" data-aos-delay="600" id="1">
                   <div className="stacks flex gap-2">
                      <IconContext.Provider value={{ className: 'stacks' }}>
-                        <FaHtml5 className="text-[#F16529]"/>
+                        <FaReact title="React" color="#53C1DE" />
                         <FaCss3Alt className="text-[#1172B8]" />
-                        <RiTailwindCssFill title="Tailwind" color="#44a8c3"/>
                         <IoLogoJavascript title="Javascript" className="dark:text-[#FFFF00] text-black" />
                      </IconContext.Provider>
                   </div>
