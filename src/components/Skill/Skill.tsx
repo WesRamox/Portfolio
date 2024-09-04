@@ -39,7 +39,7 @@ const Skill = () => {
          <div className="flex mt-5 flex-col gap-2 justify-center items-center cursor-default max-w-[30rem]" data-aos="fade-up" data-aos-delay="300">
             <h2 className="text-2xl dark:text-neutral-200 text-neutral-800 font-bold">{techsInform[techInfo].name}</h2>
             <p className=" max-[620px]:w-72 dark:text-gray-300 max-[320px]:text-xs">{techsInform[techInfo].description}</p>
-            <p className=" text-blue-500 font-bold"><span className='dark:text-white text-gray-500'>Tempo de Experiencia:</span> {techsInform[techInfo].experience}</p>
+            <p className=" text-blue-500 font-bold"><span className='dark:text-white text-gray-500'>Tempo de Experiencia:</span> {techsInform[techInfo].experience >= 12 ? (techsInform[techInfo].experience / 12).toFixed(0) + " anos" : techsInform[techInfo].experience + " meses"}</p>
          </div>
       </div>
    )
