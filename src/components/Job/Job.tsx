@@ -1,5 +1,4 @@
 import { PiDevicesDuotone } from "react-icons/pi";
-import { SiFreelancer } from "react-icons/si";
 
 export default function Job() {
 
