@@ -83,17 +83,30 @@ const Skill = () => {
         <p className=" max-[620px]:w-72 dark:text-gray-300 max-[320px]:text-xs">
           {techsInform[techInfo].description}
         </p>
-        <p className=" text-blue-500 font-bold">
+        <p className="text-blue-500 font-bold">
           <span className="dark:text-white text-gray-500 mr-1">
             Tempo de Experiencia:
           </span>
           {techsInform[techInfo].experience >= 12
-            ? (
-                Math.floor(techsInform[techInfo].experience /
-                12)
-              ) + " anos"
-            : techsInform[techInfo].experience +
-              " meses"}
+            ? `${Math.floor(
+                techsInform[techInfo].experience /
+                  12
+              )} ano${
+                Math.floor(
+                  techsInform[techInfo]
+                    .experience / 12
+                ) === 1
+                  ? ""
+                  : "s"
+              }`
+            : `${
+                techsInform[techInfo].experience
+              } mes${
+                techsInform[techInfo]
+                  .experience === 1
+                  ? ""
+                  : "es"
+              }`}
         </p>
       </div>
     </div>
