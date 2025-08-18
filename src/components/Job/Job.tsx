@@ -1,12 +1,14 @@
 import { PiDevicesDuotone } from "react-icons/pi";
+import { FaConnectdevelop } from "react-icons/fa";
+import { SiFreelancer } from "react-icons/si";
 
 export default function Job() {
-
   return (
     <div className="flex gap-3">
       <div className="flex flex-col justify-around">
+        <FaConnectdevelop size={30} />
         <PiDevicesDuotone size={30} />
-        {/*         <SiFreelancer size={30} /> */}
+        <SiFreelancer size={30} />
       </div>
       <div className="exp flex flex-col gap-3">
         <div className="flex flex-col text-start border-l-[1px] pl-2 border-blue-600">
