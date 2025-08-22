@@ -20,7 +20,7 @@ export default function Job() {
               Yaslip
             </span>
             <span className="dark:text-zinc-400 text-gray-500 italic max-sm:text-md max-sm:text-sm">
-              07/2024 - Atual
+              05/2025 - Atual
             </span>
           </h3>
         </div>

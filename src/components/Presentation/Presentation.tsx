@@ -36,8 +36,8 @@ const Presentation = () => {
                   </div>
                </div>
             </div>
-            <div className="right-box lg:justify-center lg:items-center" data-aos="fade-left" data-aos-delay="500">
-               <img src={present} alt="" className='w-96 min-w-96 max-[900px]:min-w-72 max-[900px]:w-72 rounded-full' />
+            <div className="right-box lg:justify-center lg:items-center gap-5 flex flex-col" data-aos="fade-left" data-aos-delay="500">
+               <img src={present} alt="" className='w-96 min-w-96 max-[900px]:min-w-72 max-[900px]:w-72 rounded-full image-profile' />
                <div className="flex justify-center items-center max-[768px]:hidden">
                   <Links />
                </div>

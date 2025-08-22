@@ -1,3 +1,7 @@
 h2 {
    color: #496df9;
 }
+
+.image-profile {
+   clip-path: circle(50% at 50% 50%);
+}
